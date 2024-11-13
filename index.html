@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        :root {
+            --bulma-primary-h: 196deg;
+            --bulma-primary-s: 79%;
+            --bulma-primary-l: 61%;
+            --bulma-info-h: 36deg;
+            --bulma-info-l: 48%;
+            --off-white: #fbfbfb;
+            --white: #fff
+            --text-grey-light: hsl(0, 0%, 71%);
+            /* font-family: "Roboto", sans-serif; */
+            --bulma-family-primary: "Roboto", Flex,sans-serif;
+        }
+
+        .off-white {
+            background-color: var(--off-white);
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        /* .classss {
+            text-transform: lowercase;
+        } */
+        .buttom {
+            border-radius: .65rem;
+        }
+
+        .white {
+            color: var(--white);
+        }
+
+        .line {
+            height: 3px;
+            border-radius: 50px;
+            background: #f39200;
+            width: 60px;
+            margin: 0 auto;
+        }
+        .title{
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <!-- <img src="" alt="k;;;"> -->
+                    <img src="./images-bulma/logo-dark.svg" alt="" width="100px" height="100px">
+                </a>
+                <a class="navbar-burger is-link" role="button" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item is-capitalized">
+
+                        <a class="navbar-item">
+                            featuers
+                        </a>
+                        <a class="navbar-item">
+                            pricing
+                        </a>
+                        <a class="navbar-item">
+                            log in
+                        </a>
+
+                        <!-- <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                More
+                            </a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">
+                                    About
+                                </a>
+                                <a class="navbar-item is-selected">
+                                    Jobs
+                                </a>
+                                <a class="navbar-item">
+                                    Contact
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item">
+                                    Report an issue
+                                </a>
+                            </div> -->
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a class="button is-info is-medium">
+                        <strong>Sign up</strong>
+                    </a>
+                    <!-- <a class="button is-light">
+                            Log in
+                        </a> -->
+                </div>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- start of hero section  -->
+    <section class="hero off-white is-fullheight">
+        <div class="hero-body is-centered">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-6-desktop">
+                        <h1 class="title">Manage and deploy your apps seamlessly.</h1>
+                        <p class="subtitle is-size-6 mt-4 gray">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                        <div class="buttons is-capitalized">
+                            <div class="button is-primary py-2 px-5 white">get started</div>
+                            <div class="button py-2 px-5">
+                                discover
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-6-desktop">
+                        <img src="./images-bulma/worker.svg" alt="worker">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <nav class="tabs is-centered">
+                <div class="container">
+                    <ul>
+                        <li><img class="ml-5" src="https://fresh.cssninja.io/img/logo/clients/systek.svg" width="80px"
+                                alt=""></li>
+                        <li><img class="ml-5" src="https://fresh.cssninja.io/img/logo/clients/tribe.svg" width="80px"
+                                alt="fff"></li>
+                        <li><img class="ml-5" src="https://fresh.cssninja.io/img/logo/clients/kromo.svg" alt=""
+                                width="80px"></li>
+                        <li><img class="ml-5" src="https://fresh.cssninja.io/img/logo/clients/infinite.svg" alt=""
+                                width="80px"></li>
+                        <li><img class="ml-5" src="https://fresh.cssninja.io/img/logo/clients/gutwork.svg" alt=""
+                                width="80px"></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- end of hero section  -->
+    <!-- start of section 2 -->
+    <div class="section container has-text-centered">
+        <div class="great-section">
+
+            <h1 class="title is-3 mb-3">Great Power Comes</h1>
+            <p class="subtitle gray mt-5">With great Responsability</p>
+            <div class="line"></div>
+            <div class="columns mt-6">
+                <div class="column">
+                    <div class="card p-6">
+                        <h2 class="title is-size-4">App builder</h2>
+                        <img src="./images-bulma/web.svg" width="80px" height="80px">
+                        <p class="subtitle gray">This is some cool explanatory text that is on two rows</p>
+                        <button class="button is-primary px-5 py-2 white is-capitalized">free trial</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card p-6">
+                        <h2 class="title is-size-4">Cloud integration</h2>
+                        <img src="./images-bulma/rocket.svg" width="80px" height="80px">
+                        <p class="subtitle gray">This is some explanatory text that is on two rows</p>
+                        <button class="button is-primary px-5 py-2 white is-capitalized">get started</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card p-6">
+                        <h2 class="title is-size-4">Addons & Plugins</h2>
+                        <img src="./images-bulma/light-bulb.svg" width="80px" height="80px">
+                        <p class="subtitle gray">This is some explanatory text that is on two rows</p>
+                        <button class="is-rounded button is-primary px-5 py-2 white is-capitalized">get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of section 2 -->
+    <!-- start of section 3 -->
+    <section class="section off-white has-text-centered">
+        <h2 class="title">Awesome Features</h2>
+        <p class="subtitle gray">To make you super happy
+        </p> 
+        <div class="line"></div>
+        <div class="columns is-vcentered">
+            <div class="column has-text-left">
+        <h2 class="title">Connect with people</h2>
+        <p class="subtitle gray">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.
+        </p>
+            </div>
+            <div class="column">
+                
+                <img src="images-bulma/feature-1.webp" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- end of section 3 -->
+      <!-- start of section 4 -->
+      <section class="section off-white has-text-centered">
+        <div class="columns is-vcentered">
+            <div class="column">
+                
+                <img src="images-bulma/feature-2.webp" alt="" width="100%">
+            </div>
+            <div class="column has-text-left">
+        <h2 class="title">Collaborate easily</h2>
+        <p class="subtitle gray m-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.
+        </p>
+            </div>
+        </div>
+     </section>
+    <!-- end of section 4 -->
+      <!-- start of section 5 -->
+      <section class="section off-white has-text-centered">
+        <div class="columns is-vcentered">
+            <div class="column has-text-left">
+                <h2 class="title">An intuitive app</h2>
+                <p class="subtitle gray m-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum audissem Antiochum, Brute, ut solebam, cum M. Quae diligentissime contra Aristonem dicuntur a Chryippo.
+                </p>
+            </div>
+            <div class="column">
+                
+                <img src="images-bulma/workers.svg" alt="" width="70%">
+            </div>
+        </div>
+     </section>
+    <!-- end of section 5 -->
+     
+</body>
+
+</html>
